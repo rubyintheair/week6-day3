@@ -9,6 +9,25 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container">
+      <div class="navbar">
+
+        <div class="navbar-brand">
+          <div class="navbar-item">
+          LikesApp
+          </div>
+        </div>
+
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            <%= link_to "Sign In", "/changelater", class: "navbar-item" %>
+            <%= link_to "Sign Up", "/changelater", class: "navbar-item" %>
+            <%= link_to "Log Out", "/changelater", method: "delete", class: "navbar-item" %>
+          </div>
+        </div>
+
+      </div>
+      <%= yield %>
+    </div>
   </body>
 </html>
