@@ -1,3 +1,13 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.post.card {
+  margin-bottom: 2em; 
+
+  i.fa {
+    margin-right: 5px;
+  }
+}
+.button.is-white.is-liked {
+  color: green;
+}
